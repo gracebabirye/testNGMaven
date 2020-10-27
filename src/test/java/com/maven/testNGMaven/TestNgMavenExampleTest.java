@@ -25,5 +25,16 @@ public class TestNgMavenExampleTest {
 	public void LogoutTest() {
 		System.out.println("Successfully Logged Out");
 	}
+	
+	@Test(priority = 2) // Second Highest Priority
+	   public void a_test() {
+	 }
+	@Test(priority = 3) // Lowest Priority
+	   public void c_test() {
+	}
+	 
+	@Test(priority = 1) // Highest Priority
+	   public void b_test() {
+	}
 
 }

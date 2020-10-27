@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.maven.testNGMaven.TestNgMavenExampleTest">
+        <methods>
+          <include name="LogoutTest"/>
+          <include name="testAdd"/>
+          <include name="LoginTest"/>
+          <include name="exampleOfTestNgMaven"/>
+        </methods>
+      </class> <!-- com.maven.testNGMaven.TestNgMavenExampleTest -->
+      <class name="com.maven.testNGMaven.TestNgMavenSecondClass">
+        <methods>
+          <include name="testCurrentUrl"/>
+          <include name="oneMoreTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.maven.testNGMaven.TestNgMavenSecondClass -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

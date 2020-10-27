@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.402 sec
+Tests run: 18, Failures: 1, Errors: 0, Skipped: 17, Time elapsed: 0.479 sec <<< FAILURE!
+setUp(com.maven.testNGMaven.TestNgMavenSecondClass)  Time elapsed: 0.369 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\navyug\workspace\QAPractise\src\ChromeDriver\chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:197)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:122)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:117)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:118)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:291)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:82)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:117)
+	at com.maven.testNGMaven.TestNgMavenSecondClass.setUp(TestNgMavenSecondClass.java:42)
+
